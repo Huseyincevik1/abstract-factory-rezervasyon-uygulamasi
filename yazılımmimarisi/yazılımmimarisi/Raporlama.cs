@@ -20,9 +20,9 @@ namespace yazılımmimarisi
         {
             InitializeComponent();
         }
-      /*  void rezervasyongetir()
+        void rezervasyongetir()
         {
-            baglanti = new SqlConnection("Data Source=DESKTOP-1E3PP0A;Initial Catalog=YazılımM;Integrated Security=True");
+            baglanti = new SqlConnection("Data Source=.;Initial Catalog=YazılımM;Integrated Security=True");
             baglanti.Open();
             da = new SqlDataAdapter("select * from tblRezervasyon", baglanti);
             DataTable tablo = new DataTable();
@@ -30,7 +30,7 @@ namespace yazılımmimarisi
             dataGridView1.DataSource = tablo;
             baglanti.Close();
 
-        }*/
+        }
 
         private void Raporlama_Load(object sender, EventArgs e)
         {
@@ -39,7 +39,7 @@ namespace yazılımmimarisi
 
         private void button2_Click(object sender, EventArgs e)
         {
-            /*
+            
             for (int i=0; i<dataGridView1.SelectedRows.Count;i++)
             {
                 baglanti.Open();
@@ -48,7 +48,7 @@ namespace yazılımmimarisi
                 baglanti.Close();
             }
             MessageBox.Show("Kayıt Silindi.");
-            */
+            
          
         }
 
