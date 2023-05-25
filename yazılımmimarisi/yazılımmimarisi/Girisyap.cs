@@ -17,7 +17,7 @@ namespace yazılımmimarisi
         {
             InitializeComponent();
         }
-        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-1E3PP0A;Initial Catalog=YazılımM;Integrated Security=True");
+        SqlConnection baglanti = new SqlConnection("Data Source=.;Initial Catalog=YazılımM;Integrated Security=True");
         private void button1_Click(object sender, EventArgs e)
         {
             try
