@@ -13,7 +13,7 @@ namespace yazılımmimarisi
 {
     public partial class RezervasyonIptal : Form
     {
-        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-1E3PP0A;Initial Catalog=YazılımM;Integrated Security=True");
+        SqlConnection baglanti = new SqlConnection("Data Source=.;Initial Catalog=YazılımM;Integrated Security=True");
         
         SqlDataAdapter da;
         public RezervasyonIptal()
