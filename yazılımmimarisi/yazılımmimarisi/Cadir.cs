@@ -14,7 +14,7 @@ namespace yazılımmimarisi
         public DateTime KonaklamaBaslangic { get; set; }
         public DateTime KonaklamaBitis { get; set; }
 
-        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-1E3PP0A;Initial Catalog=YazılımM;Integrated Security=True");
+        SqlConnection baglanti = new SqlConnection("Data Source=.;Initial Catalog=YazılımM;Integrated Security=True");
         SqlCommand komut;
         public string konaklamaolustur()
         {
